@@ -19,6 +19,9 @@
     "start": "node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "0.10.36"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/samuelhopkins/PeerProofCo.git"
@@ -29,8 +32,5 @@
     "url": "https://github.com/samuelhopkins/PeerProofCo/issues"
   },
   "homepage": "https://github.com/samuelhopkins/PeerProofCo",
-  "engines": {
-    "node": "0.10.36"
-  },
 }
 
