@@ -14,16 +14,17 @@ a {
   color: #00B7FF;
 }
 
-* {
-  -moz-border-radius: 0 !important;
-   border-radius: 0 !important;
-}
 
 .row{
     margin: 0;
 }
 
 #home{
+    background-image:url(/images/groupsitting.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 30% 20%; 
     background-color: #93C0AB;
     min-height: 100vh;
     text-align: center;
@@ -84,6 +85,7 @@ h1,h2,h3,h4,h5{
 }
 
 h1.name{
+    color: white;
     font-family: 'Lobster', cursive;
     font-weight: 3em;
     font-size: 8em;
