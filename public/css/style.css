@@ -45,9 +45,14 @@ a {
 }
 
 #vision{
+    color: white;
+    background-image:url(/images/apple_on_desk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% 20%; 
+    min-height: 100vh;
     text-align: center;
     min-height: 60vh;
-    background-color: #6888C0
 }
 
 #contact{
